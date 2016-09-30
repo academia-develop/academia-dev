@@ -6,8 +6,14 @@ gem "therubyracer"
 
 gem 'rails',        '4.2.2'
 gem 'bcrypt',       '3.1.7'
+
 # dammy name
 gem 'faker',        '1.4.2'
+
+# upload image
+gem 'carrierwave',             '0.10.0'
+gem 'mini_magick',             '3.8.0'
+gem 'fog',                     '1.36.0'
 
 # pagination
 gem 'will_paginate',           '3.0.7'
